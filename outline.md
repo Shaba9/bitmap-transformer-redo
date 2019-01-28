@@ -61,13 +61,15 @@ Number of bits each pixel uses is 24 (3 bytes), each byte representing the respe
 * To have a final value in decimal of the sought after information, use
 ```
 readUIntLE(offset, bytes represented by)
+  
+  - Assess docs for more details.
 ```
-  * Assess docs for more details.
 * To convert back to hex and insert it into the buffer, use
 ```
  writeUInt8(decimal value to be converted, offset to be written to)
+  
+  - Assess docs for more details.
 ```
-  * Assess docs for more details.
 * Bitmap color order is `bgr`, as opposed to the customary `rgb`.
 
 ## Summary
